@@ -1,1 +1,105 @@
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 
+body {
+    margin: 0;
+    font-family: 'NanumSquareRound', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.hero .bg {
+    background-image: url('https://media.discordapp.net/attachments/893115322100510760/935825666815983616/section1.png');
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.5) blur(3px);
+    background-size: cover;
+    background-position: left center;
+    z-index: -1;
+}
+
+.hero .content {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.hero .content .scroll-down-button {
+    position: absolute;
+    bottom: 90px;
+}
+
+.hero .content .title {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.hero .content .brief {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.scroll{
+    background-color: white;
+    height: 900px;
+}
+
+.skills-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.skills-section .title {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.skills-section .items-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1400px;
+    width: 100%;
+}
+
+.ft{
+background-color: rgb(39, 39, 39);
+height: 200px;
+font-weight: 800;
+font-size: 20px
+}
+
+.ft .content .rayun{
+    color:rgb(0, 0, 0);
+    
+}
+/* 클래스네임을 이따구로 해놓으면 코드 가독성이 */
+/* */
